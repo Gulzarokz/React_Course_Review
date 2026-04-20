@@ -1,13 +1,12 @@
 import './App.css';
-import ShowHideAndToggle from './showHideAndToggle';
-
+import InputFieldValue from './InputFieldValue';
 
 function App() {
 
   return (
     <>
       <h1>Hello!</h1>
-      <ShowHideAndToggle />
+
 
 
     </>

@@ -1,5 +1,4 @@
 import './App.css';
-import ShowHideAndToggle from './showHideAndToggle';
 
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
   return (
     <>
       <h1>Hello!</h1>
-      <ShowHideAndToggle />
+
 
 
     </>

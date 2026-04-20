@@ -1,13 +1,12 @@
 import './App.css';
-import ShowHideAndToggle from './showHideAndToggle';
-
+import showHideAndToggle from './showHideAndToggle.jsx'
 
 function App() {
 
   return (
     <>
       <h1>Hello!</h1>
-      <ShowHideAndToggle />
+      <showHideAndToggle />
 
 
     </>
