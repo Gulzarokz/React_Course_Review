@@ -1,11 +1,9 @@
-import { useState } from 'react';
 import './App.css';
 import UseEffectProps from './UseEffectProps';
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   // function getData() {
   //   alert('Hello How are you!')
@@ -13,8 +11,7 @@ function App() {
   return (
     <>
       <h1>Hello! app.js file</h1>
-      <UseEffectProps data={count} />
-      <button onClick={() => setCount(count + 1)}>counter</button>
+      <UseEffectProps />
 
 
 
