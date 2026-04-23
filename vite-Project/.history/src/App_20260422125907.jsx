@@ -1,12 +1,10 @@
 import { useState } from 'react';
-import ContextApiHook from './ContextApiHook';
-
-
+import UseEffectProps from './UseEffectProps';
 
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
 
   // function getData() {
   //   alert('Hello How are you!')
@@ -14,7 +12,8 @@ function App() {
   return (
     <>
       <h1>Hello! app.js file</h1>
-      <ContextApiHook />
+      <UseEffectProps data={count} />
+      <button onClick={() => setCount(count + 1)}>counter</button>
 
 
 
