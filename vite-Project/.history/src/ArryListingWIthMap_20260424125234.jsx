@@ -30,7 +30,6 @@ const ArryListingWIthMap = () => {
                     <table border={1} key={item.email}>
 
 
-
                         <tbody>
                             <tr >
                                 <td>{item.name}</td>

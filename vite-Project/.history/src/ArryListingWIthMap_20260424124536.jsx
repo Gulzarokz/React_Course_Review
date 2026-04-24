@@ -25,11 +25,8 @@ const ArryListingWIthMap = () => {
             <h2>Array Listing Element with Map function</h2>
 
             {
-                employeeInfo.map((item) =>
-                    // <table border={1} key={item.email}>
+                employeeInfo.map((item, i) =>
                     <table border={1} key={item.email}>
-
-
 
                         <tbody>
                             <tr >
