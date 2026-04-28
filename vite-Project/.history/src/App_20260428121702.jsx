@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import UncontrolledComp from './UncontrolledComp';
-
+import ControlledComp from './ControlledComp';
 
 
 
@@ -14,8 +13,7 @@ function App() {
   return (
     <>
       <h1>Hello! app.js file</h1>
-      <UncontrolledComp />
-
+      <ControlledComp />
 
 
 
