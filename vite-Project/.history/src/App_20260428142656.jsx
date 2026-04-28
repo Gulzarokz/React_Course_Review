@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import PreviousState from './PreviousState';
 
 
 
@@ -16,7 +15,7 @@ function App() {
   return (
     <>
       <h1>Hello! app.js file</h1>
-      <PreviousState />
+
 
 
 

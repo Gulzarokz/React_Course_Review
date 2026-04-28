@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import PreviousState from './PreviousState';
+import OnClick from './OnClick';
+import OnMouseOver from './OnMouseOver';
 
 
 
@@ -16,7 +17,9 @@ function App() {
   return (
     <>
       <h1>Hello! app.js file</h1>
-      <PreviousState />
+      <OnClick />
+      <OnMouseOver />
+
 
 
 
