@@ -6,13 +6,7 @@ const PreviousState = () => {
         // console.log(prev);
         // return state + 1
 
-        for (let i = 0; i < 5; i++) {
-            setState((prev) => {
-                return prev + 1
-            }
 
-            )
-        }
 
     }
     return (

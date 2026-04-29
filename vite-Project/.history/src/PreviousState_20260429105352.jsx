@@ -8,10 +8,8 @@ const PreviousState = () => {
 
         for (let i = 0; i < 5; i++) {
             setState((prev) => {
-                return prev + 1
-            }
-
-            )
+                return prev + 1;
+            })
         }
 
     }

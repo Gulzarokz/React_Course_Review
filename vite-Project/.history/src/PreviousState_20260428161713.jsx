@@ -10,7 +10,6 @@ const PreviousState = () => {
             setState((prev) => {
                 return prev + 1
             }
-
             )
         }
 

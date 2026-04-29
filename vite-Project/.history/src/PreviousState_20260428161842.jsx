@@ -7,11 +7,7 @@ const PreviousState = () => {
         // return state + 1
 
         for (let i = 0; i < 5; i++) {
-            setState((prev) => {
-                return prev + 1
-            }
-
-            )
+            setState(prev => prev + 1)
         }
 
     }
