@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import MyCount from './myCount';
-
+import PostApi from './PostApi';
+import StyleInReact from './StyleInReact';
 
 
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <h1>Hello! app.js file</h1>
-      <MyCount />
+      <StyleInReact />
 
 
 

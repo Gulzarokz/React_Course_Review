@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import MyCount from './myCount';
 
 
 
@@ -18,7 +17,7 @@ function App() {
   return (
     <>
       <h1>Hello! app.js file</h1>
-      <MyCount />
+      <
 
 
 
