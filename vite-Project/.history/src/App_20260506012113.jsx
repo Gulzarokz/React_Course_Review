@@ -4,9 +4,6 @@ import Home from './MyRoutes/Home';
 import About from './MyRoutes/About';
 import Navbar from './MyRoutes/Navbar';
 import PageNotFound from './MyRoutes/PageNotFound';
-import Employee from './MyRoutes/Employee';
-import Contact from './MyRoutes/Contact';
-import SerachParams from './MyRoutes/SerachParams';
 
 
 
@@ -32,11 +29,8 @@ function App() {
         <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/params' element={<SerachParams />} />
           {/* <Route path='/*' element={<PageNotFound />} /> */}
-          {/* <Route path='/employee/:name/:age' element={<Employee />} />
-          <Route path='/*' element={<Navigate to="/home" />} /> */}
+          <Route path='/*' element={<Navigate to="/home" />} />
         </Routes>
       </BrowserRouter>
 
