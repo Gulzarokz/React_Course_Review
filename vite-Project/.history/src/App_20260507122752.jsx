@@ -8,9 +8,6 @@ import Employee from './MyRoutes/Employee';
 import Contact from './MyRoutes/Contact';
 import SerachParams from './MyRoutes/SerachParams';
 import Company from './MyRoutes/Company';
-import Admin from './MyRoutes/Admin';
-import Faculty from './MyRoutes/Faculty';
-import Student from './MyRoutes/Student';
 
 
 

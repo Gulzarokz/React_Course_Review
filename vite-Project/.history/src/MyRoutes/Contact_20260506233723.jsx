@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <>
             <h1>Contact page</h1>
-            <button onClick={() => navigate('/home')}>go to Home</button>
+            <button onClick={() => navigate('/')}>go to Home</button>
             <button onClick={() => navigate('/about')}>go to About</button>
         </>
     )

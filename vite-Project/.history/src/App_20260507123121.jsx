@@ -38,10 +38,10 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/params' element={<SerachParams />} />
-          <Route path='/company/' element={<Company />}>
-            <Route path='admin' element={<Admin />} />
-            <Route path='faculty' element={<Faculty />} />
-            <Route path='student' element={<Student />} />
+          <Route path='/company' element={<Company />}>
+            <Route path='/company/admin' element={<Admin />} />
+            <Route path='/company/faculty' element={<Faculty />} />
+            <Route path='/company/student' element={<Student />} />
           </Route>
           {/* <Route path='/*' element={<PageNotFound />} /> */}
           {/* <Route path='/employee/:name/:age' element={<Employee />} />
