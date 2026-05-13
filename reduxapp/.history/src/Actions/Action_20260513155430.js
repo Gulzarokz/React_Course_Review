@@ -6,9 +6,8 @@ export const incNumber = (num) => {
 }
 
 
-export const decNumber = (num) => {
+export const decNumber = () => {
     return {
-        type: 'DECREMENT',
-        payload: num
+        type: 'DECREMENT'
     }
 }
